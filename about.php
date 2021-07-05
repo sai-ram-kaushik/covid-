@@ -22,7 +22,7 @@
                 </ul>
             </div>
         </nav>
-        <!-- <img src="./images/IMG_20190323_114833.jpg" width="45%" height="60%"> -->
+        <img src="./images/IMG_20190323_114833.jpg" width="45%" height="60%">
         <svg width="100vw" height="100vh">
             <text x="37%" y="50%">DEVELOPER</text>
         </svg>

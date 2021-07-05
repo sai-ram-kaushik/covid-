@@ -50,10 +50,8 @@ nav ul li a:hover{
     color: grey;
 }
 img{
-    /* border-radius: 50px; */
-    margin: 10% 35%;
-    clip-path: circle();
-    z-index: -1;
+    border-radius: 200px;
+    margin: 5% 40%;
 }
 svg text{
     font-size: 4rem;
@@ -71,4 +69,23 @@ svg text{
         stroke-dasharray: 50% 0;
         stroke-dashoffset: 10%;
     }
+}
+#insta{
+    font-size: 50px;
+    transform: translateY(-530px);
+    margin: 0px 400px;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.developer h2{
+    font-size: 45px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0px 470px;
+    transform: translateY(-40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
