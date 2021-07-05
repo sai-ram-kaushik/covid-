@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Covid-19</title>
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    
 </head>
 
 <body>
@@ -113,6 +113,19 @@
     </div>
 
 </body>
-<script src="./js/index.js"></script>
+<!-- <script src="./js/index.js"></script> -->
+<script>
+    const header = document.querySelector('.header');
+window.onscroll = function(){
+    var top = window.scrollY;
+    console.log(top);
+    if(top){
+        header.classList.add('black');
+    }
+    else{
+        header.classList.remove('black')
+    }
+}
+</script>
 
 </html>

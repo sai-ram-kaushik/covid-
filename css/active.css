@@ -105,6 +105,6 @@ svg text{
     margin-top: 0px;
     /* display: flex; */
     z-index: -1;
-    transform: translateY(-500px);
+    /* transform: translateY(-500px); */
     position:relative;
 }

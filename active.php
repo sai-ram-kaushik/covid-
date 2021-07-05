@@ -11,7 +11,7 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="header">
             
             <div class="menu">
                 <ul>
@@ -77,5 +77,18 @@
     </table>
 </div>
 </body>
-<script src="./js/index.js"></script>
+<!-- <script src="./js/index.js"></script> -->
+<script>
+    const header = document.querySelector('.header');
+    window.onscroll = function(){
+    var top = window.scrollY;
+    console.log(top);
+    if(top>=200){
+        header.classList.add('black');
+    }
+    else{
+        header.classList.remove('black')
+    }
+}
+</script>
 </html>
