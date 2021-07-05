@@ -71,6 +71,7 @@ svg text{
         stroke-dashoffset: 10%;
     }
 }
+
 #insta{
     font-size: 50px;
     transform: translateY(-620px);
@@ -80,6 +81,7 @@ svg text{
     align-items: center;
     justify-content: center;
     color: rgb(241, 103, 241);
+    flex-wrap: wrap;
 }
 a{
     text-decoration: none;

@@ -32,6 +32,7 @@
         <div class="developer">
             <h2>SAI RAM KAUSHIK</h2>
         </div>
+       
         <svg width="100vw" height="100vh">
             <text x="37%" y="10%">DEVELOPER</text>
         </svg>
@@ -41,6 +42,7 @@
                 id="github"></i></a>
         <a href="https://www.linkedin.com/in/sairam-kaushik-711a40210/" target="_blank"><i class="fa fa-linkedin"
                 aria-hidden="true" id="linkedin"></i></a>
+          
     </header>
 </body>
 <script src="./js/index.js"></script>
