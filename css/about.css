@@ -10,6 +10,7 @@ header{
     height: 150vh;
     display: flex;
     flex-wrap: wrap;
+    z-index: -1;
 }
 
 nav{
@@ -72,18 +73,42 @@ svg text{
 }
 #insta{
     font-size: 50px;
-    transform: translateY(-530px);
-    margin: 0px 400px;
+    transform: translateY(-620px);
+    margin: 0px 500px;
     z-index: -1;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgb(241, 103, 241);
+}
+a{
+    text-decoration: none;
+}
+#github{
+    font-size: 50px;
+    transform: translateY(-670px);
+    margin: 0px 700px;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(241, 103, 241);
+}
+#linkedin{
+    font-size: 50px;
+    transform: translateY(-720px);
+    margin: 0px 900px;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(241, 103, 241);
 }
 .developer h2{
     font-size: 45px;
     color: white;
     font-family: 'Orbitron', sans-serif;
-    margin: 0px 470px;
+    margin: 0px 500px;
     transform: translateY(-40px);
     display: flex;
     align-items: center;
