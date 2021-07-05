@@ -25,7 +25,6 @@
             <text x="30%" y="35%">COVID-19 LIVE UPDATE</text>
         </svg>
         </header>
-        <h1>COVID-19 LIVE UPDATE OF INDIA</h1>
     <div class="container">
     <table class="liveupdate">
         
