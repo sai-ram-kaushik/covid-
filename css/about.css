@@ -61,6 +61,7 @@ svg text{
     stroke: #ffa500;
     animation: effect 3s infinite alternate;
     display:flex;
+    transform: translateY(-20px);
 }
 @keyframes effect{
     0%{
@@ -109,10 +110,11 @@ a{
 .developer h2{
     font-size: 45px;
     color: white;
-    font-family: 'Orbitron', sans-serif;
+    /* font-family: 'Orbitron', sans-serif; */
     margin: 0px 500px;
-    transform: translateY(-40px);
+    transform: translateY(-60px);
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
+
 }

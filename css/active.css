@@ -30,6 +30,9 @@ nav ul li a {
     font-size: 25px;
     cursor: pointer;
 }
+nav ul li a:hover{
+    color: grey;
+}
 h1{
     font-size: 48px;
     text-transform: uppercase;

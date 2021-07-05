@@ -16,15 +16,16 @@
             <div class="menu">
                 <ul>
                     <li><a href="./index.php">Home</a></li> 
-                   <li><a href="./active.php">Active Caese</a></li> 
+                   <li><a href="./active.php">Active Cases</a></li> 
                    <li><a href="./about.php">About</a></li> 
                 </ul>
             </div>
         </nav>
         <svg width="100vw" height="100vh">
-            <text x="20%" y="35%">COVID-19 LIVE UPDATE OF INDIA</text>
+            <text x="30%" y="35%">COVID-19 LIVE UPDATE</text>
         </svg>
-        </header> 
+        </header>
+        <h1>COVID-19 LIVE UPDATE OF INDIA</h1>
     <div class="container">
     <table class="liveupdate">
         
