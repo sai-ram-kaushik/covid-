@@ -1,8 +1,11 @@
-$(window).on("scroll",function(){
-    if ($(window).scrollTop()){
-        $('nav').addClass('black');
+const header = document.querySelector('.header');
+window.onscroll = function(){
+    var top = window.scrollY;
+    console.log(top);
+    if(top>=200){
+        header.classList.add('black');
     }
-    else {
-        $('nav').removeClass('black');
+    else{
+        header.classList.remove('black')
     }
-})
+}
