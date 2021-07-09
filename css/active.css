@@ -48,6 +48,7 @@ h1{
 nav.black{
     background: #000;
     border-radius: 10px;
+    transition: 1s;
 }
 svg text{
     font-size: 4rem;
